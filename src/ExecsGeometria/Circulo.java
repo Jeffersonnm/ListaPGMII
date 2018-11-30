@@ -1,31 +1,16 @@
 package ExecsGeometria;
 
-class Circulo {
+class Circulo extends Coordenadas {
+    private double raio;
+    private double diametro;
 
-    double x;
-    double y;
-    double raio;
-
-    Circulo(double x, double y, double raio) {
-        this.x = x;
-        this.y = y;
+    public Circulo(double raio, float x, float y) {
+        super(x, y);
         this.raio = raio;
     }
-
-    public double getX() {
-        return x;
-    }
-
-    public void setX(double x) {
-        this.x = x;
-    }
-
-    public double getY() {
-        return y;
-    }
-
-    public void setY(double y) {
-        this.y = y;
+    
+    public Circulo(float x, float y) {
+        super(x, y);
     }
 
     public double getRaio() {
@@ -34,5 +19,17 @@ class Circulo {
 
     public void setRaio(double raio) {
         this.raio = raio;
+    }
+
+    public double getDiametro() {
+        return this.diametro;
+    }
+
+    public void setDiametro() {
+        this.diametro = Math.pow(raio, 2);
+    }
+
+    public double getCircunferecia() {
+        return Math.PI * this.diametro;
     }
 }

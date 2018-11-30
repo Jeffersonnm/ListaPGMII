@@ -1,34 +1,9 @@
-package Q9;
+package ExecsGeometria;
 
-/**
- *
- * @author JEFFERSON
- */
 
 // coordenadas do circulo se referem ao centro do circulo
-class Circulo {
-    double raio;
-    float x;
-    float y;
 
-    public Circulo(double raio, float x, float y) {
-        this.raio = raio;
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class Ponto {
-    float x;
-    float y;
-
-    public Ponto(float x, float y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-public final class Q9 {
+public final class Ex09 {
     Circulo c;
     Ponto p1;
     Ponto p2;
@@ -36,7 +11,7 @@ public final class Q9 {
     Ponto p4;
     double distanciaPontoeCirculo;
     
-    public Q9() {
+    public Ex09() {
         c = new Circulo(3, 5, 7);
         p1 = new Ponto(2, 3);
         System.out.println(verificarLocalizacaoPonto(c, p1));
@@ -52,9 +27,9 @@ public final class Q9 {
         distanciaPontoeCirculo = Math.sqrt(Math.pow((c.x - p.x), 2)
                 + Math.pow((c.y - p.y), 2));
         distanciaPontoeCirculo = Math.floor(distanciaPontoeCirculo);
-        if (distanciaPontoeCirculo < c.raio) {
+        if (distanciaPontoeCirculo < c.getRaio()) {
             return "Dentro do circulo";
-        } else if (distanciaPontoeCirculo == c.raio) {
+        } else if (distanciaPontoeCirculo == c.getRaio()) {
             return "Na borda do circulo";
         } else {
             return "Fora do circulo";
@@ -62,6 +37,6 @@ public final class Q9 {
     }
     
     public static void main(String[] args) {
-        Q9 q9 = new Q9();
+        Ex09 q9 = new Ex09();
     }
 }

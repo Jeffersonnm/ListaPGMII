@@ -1,68 +1,14 @@
-package Q11;
+package ExecsGeometria;
 
-/**
- *
- * @author JEFFERSON
- */
 import java.util.Scanner;
 
-class Coordenadas {
-
-    public float x;
-    public float y;
-
-    public Coordenadas(float x, float y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class Circulo extends Coordenadas {
-
-    private double raio;
-    private double diametro;
-
-    public Circulo(float x, float y) {
-        super(x, y);
-    }
-
-    public double getRaio() {
-        return raio;
-    }
-
-    public void setRaio(double raio) {
-        this.raio = raio;
-    }
-
-    public double getDiametro() {
-        return this.diametro;
-    }
-
-    public void setDiametro() {
-        this.diametro = Math.pow(raio, 2);
-    }
-
-    public double getCircunferecia() {
-        return Math.PI * this.diametro;
-    }
-
-}
-
-class Ponto extends Coordenadas {
-
-    public Ponto(float x, float y) {
-        super(x, y);
-    }
-
-}
-
-public final class Q11 {
+public final class Ex11 {
 
     Circulo c;
     Ponto p;
     double distanciaPontoeCirculo;
 
-    public Q11() {
+    public Ex11() {
         System.out.println("\nEsse programa verifica se um ponto está "
                 + "dentro, fora ou na borda de um circulo.");
         inicializaVar();
@@ -117,9 +63,5 @@ public final class Q11 {
                 System.out.println("Informe um número e pressione enter");
             }
         }
-    }
-
-    public static void main(String[] args) {
-        Q11 q9 = new Q11();
     }
 }

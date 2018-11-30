@@ -15,13 +15,13 @@ class Notas {
     }
 }
 
-public final class Q13 {
+public final class Ex13 {
 
     Notas notas;
     int valorMonetario;
     int[] quantidadeNotas;
 
-    public Q13() {
+    public Ex13() {
         inicializaVar();
         pedeDados();
         divideValor();
@@ -77,9 +77,5 @@ public final class Q13 {
                 System.out.println("Informe um número e pressione enter");
             }
         }
-    }
-
-    public static void main(String[] args) {
-        Q13 q13 = new Q13();
     }
 }

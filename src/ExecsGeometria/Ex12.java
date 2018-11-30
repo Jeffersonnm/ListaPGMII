@@ -1,60 +1,13 @@
-package Q12;
+package ExecsGeometria;
 
 import java.util.Scanner;
 
-/**
- *
- * @author JEFFERSON
- */
-
-class Coordenadas {
-
-    public float x;
-    public float y;
-
-    public Coordenadas(float x, float y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class Circulo extends Coordenadas {
-
-    private double raio;
-    private double diametro;
-
-    public Circulo(float x, float y) {
-        super(x, y);
-    }
-
-    public double getRaio() {
-        return raio;
-    }
-
-    public void setRaio(double raio) {
-        this.raio = raio;
-    }
-
-    public double getDiametro() {
-        return this.diametro;
-    }
-
-    public void setDiametro() {
-        this.diametro = Math.pow(raio, 2);
-    }
-
-    public double getCircunferecia() {
-        return Math.PI * this.diametro;
-    }
-
-}
-
-public final class Q12 {
+public final class Ex12 {
     
     Circulo c1;
     Circulo c2;
     
-    public Q12() {
+    public Ex12() {
         inicializaVar();
         pedeDados();
         if (estaoSobrepostos(this.c1, this.c2)) {
@@ -97,9 +50,5 @@ public final class Q12 {
                 System.out.println("Informe um número e pressione enter");
             }
         }
-    }
-    
-    public static void main(String[] args) {
-        Q12 q12 = new Q12();
     }
 }

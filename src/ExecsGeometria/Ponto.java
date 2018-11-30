@@ -1,28 +1,9 @@
 package ExecsGeometria;
 
-class Ponto {
+class Ponto extends Coordenadas {
 
-    double xPonto;
-    double yPonto;
-
-    Ponto(double x, double y) {
-        xPonto = x;
-        yPonto = y;
+    public Ponto(float x, float y) {
+        super(x, y);
     }
 
-    public double getxPonto() {
-        return xPonto;
-    }
-
-    public void setxPonto(double xPonto) {
-        this.xPonto = xPonto;
-    }
-
-    public double getyPonto() {
-        return yPonto;
-    }
-
-    public void setyPonto(double yPonto) {
-        this.yPonto = yPonto;
-    }
 }
