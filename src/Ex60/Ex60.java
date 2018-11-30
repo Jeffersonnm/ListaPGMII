@@ -1,3 +1,5 @@
+package Ex60;
+
 
 
 import java.io.FileNotFoundException;
@@ -27,7 +29,7 @@ class Ponto {
 
 }
 
-public final class Q60 {
+public final class Ex60 {
 
     int pontosInscritosnoCirculo = 0;
     int qtdPontos;
@@ -36,7 +38,7 @@ public final class Q60 {
     regraTrapezios t = new regraTrapezios();
     regraSimpson s = new regraSimpson();
 
-    public Q60() {
+    public Ex60() {
         monteCarlo();
         //seriesInfinitas();
         //problemaBasileia();
@@ -74,7 +76,7 @@ public final class Q60 {
     }
 
     public static void main(String[] args) {
-        Q60 q60 = new Q60();
+        Ex60 q60 = new Ex60();
     }
 }
 
