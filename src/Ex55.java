@@ -1,13 +1,7 @@
-package Q55;
 
-/**
- *
- * @author JEFFERSON
- */
+public final class Ex55 {
 
-public final class Q55 {
-
-    public Q55() {
+    public Ex55() {
         System.out.println(maiorFatorPrimo(13195));
         System.out.println(maiorFatorPrimo(600851475143L));
     }
@@ -24,6 +18,6 @@ public final class Q55 {
     }
     
     public static void main(String[] args) {
-        Q55 q55 = new Q55();
+        Ex55 q55 = new Ex55();
     }
 }

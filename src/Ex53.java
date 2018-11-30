@@ -1,16 +1,11 @@
-package Q53;
 
-/**
- *
- * @author JEFFERSON
- */
-public final class Q53 {
+public final class Ex53 {
 
     double[][] matriz1 = {{2, 1}, {9, 2}, {5, 8}};
     double[][] matriz2 = {{5, 8, 9}, {3, 1, 4}};
     double[][] matrizResultante = new double[matriz1.length][matriz2[0].length];
 
-    public Q53() {
+    public Ex53() {
         multiplicacaoMatriz(matriz1, matriz2);
     }
 
@@ -32,6 +27,6 @@ public final class Q53 {
     }
 
     public static void main(String[] args) {
-        Q53 q53 = new Q53();
+        Ex53 q53 = new Ex53();
     }
 }

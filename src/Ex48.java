@@ -1,15 +1,14 @@
-package Q48;
 
 import java.util.Scanner;
 
-public final class Q48 {
+public final class Ex48 {
 
     
     String[][] matriz;
     int colunas;
     int linhas;
     
-    public Q48() {
+    public Ex48() {
         pedeDados();
         inicializaVar();
         criaMatriz();
@@ -51,6 +50,6 @@ public final class Q48 {
     }
     
     public static void main(String[] args) {
-        Q48 q48 = new Q48();
+        Ex48 q48 = new Ex48();
     }
 }

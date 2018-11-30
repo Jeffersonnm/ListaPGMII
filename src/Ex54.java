@@ -1,14 +1,9 @@
-package Q54;
 
-/**
- *
- * @author JEFFERSON
- */
-public final class Q54 {
-    
+public final class Ex54 {
+
     int soma;
-    
-    public Q54() {
+
+    public Ex54() {
         for (int i = 0; i < 1000; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
                 soma += i;
@@ -16,8 +11,8 @@ public final class Q54 {
         }
         System.out.println(soma);
     }
-    
+
     public static void main(String[] args) {
-        Q54 q54 = new Q54();
+        Ex54 q54 = new Ex54();
     }
 }

@@ -1,7 +1,3 @@
-package Q58;
-
-import java.awt.Graphics;
-import javax.swing.JPanel;
 
 class Coordenadas {
 
@@ -53,12 +49,12 @@ class Ponto extends Coordenadas {
 
 }
 
-public final class Q58 {
+public final class Ex58 {
 
     // X e y do circulo são as coordenadas do centro do circulo
     Circulo circulo = new Circulo(10, 2);
 
-    public Q58() {
+    public Ex58() {
         circulo.setRaio(10);
         circulo.setDiametro();
         System.out.println("numero de vezes que a reta toca o circulo: " + calculo());
@@ -106,6 +102,6 @@ public final class Q58 {
     }
 
     public static void main(String[] args) {
-        Q58 q58 = new Q58();
+        Ex58 q58 = new Ex58();
     }
 }

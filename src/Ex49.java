@@ -1,10 +1,9 @@
-package Q49;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public final class Q49 {
+public final class Ex49 {
 
     String[][] matriz;
     String[][] matrizInvertida;
@@ -12,7 +11,7 @@ public final class Q49 {
     int linhas;
     int colunas;
 
-    public Q49() {
+    public Ex49() {
         pedeDados();
         inicializaVar();
         criaMatriz();
@@ -79,6 +78,6 @@ public final class Q49 {
     }
 
     public static void main(String[] args) {
-        Q49 q49 = new Q49();
+        Ex49 q49 = new Ex49();
     }
 }
