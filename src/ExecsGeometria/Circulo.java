@@ -4,12 +4,12 @@ class Circulo extends Coordenadas {
     private double raio;
     private double diametro;
 
-    public Circulo(double raio, float x, float y) {
+    public Circulo(double raio, double x, double y) {
         super(x, y);
         this.raio = raio;
     }
-    
-    public Circulo(float x, float y) {
+
+    public Circulo(double x, double y) {
         super(x, y);
     }
 
