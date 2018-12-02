@@ -49,7 +49,4 @@ public final class Ex48 {
         }
     }
     
-    public static void main(String[] args) {
-        Ex48 q48 = new Ex48();
-    }
 }

@@ -25,8 +25,4 @@ public final class Ex53 {
             System.out.println("O número de colunas da matriz1 deve ser igual número de linhas da matriz2");
         }
     }
-
-    public static void main(String[] args) {
-        Ex53 q53 = new Ex53();
-    }
 }

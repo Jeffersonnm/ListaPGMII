@@ -11,8 +11,5 @@ public final class Ex54 {
         }
         System.out.println(soma);
     }
-
-    public static void main(String[] args) {
-        Ex54 q54 = new Ex54();
-    }
+    
 }

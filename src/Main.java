@@ -7,7 +7,7 @@ import ExecsGeometria.Ex33;
 public class Main {
 
     public static void main(String[] args) {
-        new Ex34();
+        new Ex45();
     }
 
 }

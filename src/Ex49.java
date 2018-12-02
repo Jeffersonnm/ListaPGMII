@@ -76,8 +76,5 @@ public final class Ex49 {
             System.out.println("");
         }
     }
-
-    public static void main(String[] args) {
-        Ex49 q49 = new Ex49();
-    }
+    
 }

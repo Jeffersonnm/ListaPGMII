@@ -17,7 +17,4 @@ public final class Ex55 {
         return i;
     }
     
-    public static void main(String[] args) {
-        Ex55 q55 = new Ex55();
-    }
 }

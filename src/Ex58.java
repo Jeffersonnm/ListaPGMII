@@ -100,8 +100,5 @@ public final class Ex58 {
         }
         return cont == 2 ? "duas vezes" : cont == 1 ? "uma vez" : "nenhuma vez";
     }
-
-    public static void main(String[] args) {
-        Ex58 q58 = new Ex58();
-    }
+    
 }
