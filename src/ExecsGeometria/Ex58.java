@@ -1,53 +1,5 @@
+package ExecsGeometria;
 
-class Coordenadas {
-
-    public double x;
-    public double y;
-
-    public Coordenadas(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class Circulo extends Coordenadas {
-
-    private double raio;
-    private double diametro;
-
-    public Circulo(double x, double y) {
-        super(x, y);
-    }
-
-    public double getRaio() {
-        return raio;
-    }
-
-    public void setRaio(double raio) {
-        this.raio = raio;
-    }
-
-    public double getDiametro() {
-        return this.diametro;
-    }
-
-    public void setDiametro() {
-        this.diametro = 2 * raio;
-    }
-
-    public double getCircunferecia() {
-        return Math.PI * this.diametro;
-    }
-
-}
-
-class Ponto extends Coordenadas {
-
-    public Ponto(double x, double y) {
-        super(x, y);
-    }
-
-}
 
 public final class Ex58 {
 
